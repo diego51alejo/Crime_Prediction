@@ -1,6 +1,9 @@
 # Predicción del Crimen en Bucaramanga
 
-Clasificación de los tipos de hurtos en Bucaramanga, la base de datos proporciona once tipos (hurto a automotores, hurto a celulares, hurto a comercio, hurto a entidades financieras, hurto a motocicletas, hurto a personas, hurto a piratería terrestre, hurto abigeato, hurto de autopartes, hurto de bicicletas, hurto residencias.
+En el presente trabajo se realiza una limpieza de los registros de los delitos de la ciudad de Bucaramanga, Colombia, este proyecto se encuentra con diferentes desafíos como mala digitación en la latitud y la longitud, donde se escribió numerosas veces en el formato equivocado, es decir, por ejemplo el formato de la latitud realmente debe estár de esta manera 7.123456 y se encuentra 7,123,456, además en el año 2021 la latitud y la longitud se encuentran al contrario, y así numerosos errores en la data.
+
+Posteriormente también se cuenta con un análisis exploratorio con ayuda de Seaborn y Matplotlib que permitió conocer un poco mejor los datos, finalmente se realiza modelos de clasificación de los delitos y predicción de número de delitos mes a mes a partir del modelo ARIMA.
+
 
 ## Data
 
